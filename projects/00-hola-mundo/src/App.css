@@ -1,0 +1,39 @@
+
+.twitter-follow-card {
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        font-size: .8rem;
+        gap:16px;
+        font-family: 'arial';
+        font-weight: bold;
+        justify-content: space-between;
+    }
+.twitter-follow-card-header-img{
+    width: 48px;
+    height: 48px;
+    border-radius: 1000px;
+    
+}
+.twitter-follow-card-header{
+    display: flex;
+    align-items: center;
+    gap: 8px;    
+}
+.twitter-follow-card-header-username{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color:rgb(124, 123, 123);
+}
+.twitter-follow-card-button{
+    border-radius: 1000px;
+    width: 80px; /* Ajusta el ancho según necesites */
+    height: 40px; /* Ajusta la altura según necesites */
+    padding: 3px 3px; /* Ajusta el padding para más espacio interno */
+    font-family: 'arial';
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
